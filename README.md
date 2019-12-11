@@ -1,6 +1,7 @@
 # building-meme-generation
 
 ## Markov Model
+###### Markov code modified from https://github.com/pub12/MarkovText 
 
 The ```markov``` folder contains the python files and dictionary for generating captions using an order 2 markov chain. To generate captions, use the command
 ```
@@ -10,5 +11,6 @@ The n parameter can be changed to change the number of captions generated at onc
 
 
 ## Neural Net
+###### uses textgenrnn from https://github.com/minimaxir/textgenrnn
 
-The ```neuralNet``` folder contains an ipython notebook demonstrating using textgenrnn to train and generate a model. The ```models``` folder also contains the final trained model, which can be loaded and used by textgenrnn. 
+The ```neuralNet``` folder contains an IPython notebook demonstrating using textgenrnn to train and generate a model. The ```models``` folder also contains the final trained model, which can be loaded and used by textgenrnn. 
